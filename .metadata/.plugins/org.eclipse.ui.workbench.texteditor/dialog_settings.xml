@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="    &lt;groupId&gt;org.testng&lt;/groupId&gt;"/>
+		<list key="findhistory">
+			<item value="    &lt;groupId&gt;org.testng&lt;/groupId&gt;"/>
+			<item value="&#x09;&#x09;usernameFiled.sendKeys(&quot;Rthor5522@gmail.com&quot;);"/>
+			<item value="WebElement language = driver.findElement(By.cssSelector(&quot;#fi_preferences__language button&quot;));"/>
+			<item value="&#x09;&#x09;String firstNmae = driver.getTitle();"/>
+			<item value="String firstNmae = driver.getTitle();"/>
+		</list>
+	</section>
+</section>

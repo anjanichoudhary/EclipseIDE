@@ -1,0 +1,30 @@
+package test;
+
+import org.testng.annotations.Test;
+//rahulonlinetutor@gmail.com
+
+public class day4 {
+	
+	@Test
+	public void WebloginHomeLoan()
+	{
+		//Selenium
+		System.out.println("Webloginhome");
+		
+	}
+	
+	@Test(groups= {"Smoke"})
+	public void MobileLoginHomeLoan()
+	{
+		//Appium
+		System.out.println("Mobileloginhome");
+	}
+	
+	@Test
+	public void LoginAPIHomeLoan()
+	{
+		//Rest API automation
+		System.out.println("APIloginhome");
+	}
+
+}

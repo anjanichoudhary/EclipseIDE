@@ -1,0 +1,3 @@
+module Interviewa {
+	requires org.seleniumhq.selenium.api;
+}

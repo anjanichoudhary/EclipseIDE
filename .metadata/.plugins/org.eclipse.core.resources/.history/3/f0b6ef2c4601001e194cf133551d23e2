@@ -1,0 +1,52 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SelIntroduction {
+
+	public static void main(String[] args) {
+
+		//Invoking Browser
+		//Chrome - ChromeDeiver ->Methods close get
+		//Firefox- FirefoxDriver -> methods close get
+		//Safari SaariDriver -> methods close get
+		//WebDriver close get
+		//webDriver methods + class methods
+		
+		// chromedriver.exe-> Chrome browser
+		
+		System.setProperty("Webdriver.chrome.driver", "C:\\Users\\anjani\\AppData\\Local\\Google\\Chrome\\User Data\\chrome_path\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		try {
+		driver.get("https://onboarding.foodinvites.com");
+		//System.out.println(driver.getTitle());
+		//System.out.println(driver.getCurrentUrl());
+		//String firstNmae = driver.getTitle();
+		//String title = driver.getTitle();
+		//System.out.println(firstNmae);
+		//System.out.print(title);
+		Thread.sleep(10000);
+		//WebElement language = driver.findElement(By.cssSelector("#fi_preferences__language button"));
+		//language.click();
+		//System.out.println(language);
+		List<WebElement> elementList = driver.findElements(By.cssSelector("#fi_preferences__language button"));
+		//System.out.println(elementList.size());
+		elementList.get(0).click();
+		
+		List<WebElement> login = driver.findElements(By.cssSelector("#mud-grid-item FI--B2B__Login"));
+		//System.out.println(elementList.size());
+		login.get(0).click();
+		
+		
+		} 
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+
+}

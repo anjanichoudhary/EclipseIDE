@@ -1,0 +1,13 @@
+
+public class Assignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String text="Anjani";
+		System.setProperty("", text);
+		WebDriver driver = new chrome.driver()''
+		
+	}
+
+}

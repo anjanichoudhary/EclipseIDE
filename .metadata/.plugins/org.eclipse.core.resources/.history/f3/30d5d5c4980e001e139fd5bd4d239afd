@@ -1,0 +1,11 @@
+
+public class Dropdown {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome", "C:\\Users\\anjani\\AppData\\Local\\Google\\Chrome\\User Data\\chrome_path\\chromedriver.exe");
+		WebDriver driveer = new chrome.driver();
+	}
+
+}

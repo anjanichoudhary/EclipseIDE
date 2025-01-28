@@ -1,0 +1,171 @@
+package test;
+
+
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.JavascriptExecutor;
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.interactions.Actions;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import org.testng.annotations.Test;
+
+
+
+public class MFPunching {
+
+	
+
+	WebDriver driver;
+
+	   // LaunchWebsiteWealthmaker 
+
+	
+
+	   @Test(priority =1)
+
+	   public void LaunchWebsiteWealthmaker() {
+
+	   System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+
+	   driver =new ChromeDriver();
+
+	   JavascriptExecutor js = (JavascriptExecutor) driver;
+
+	   driver.get("http://wealthvbbcl.bajajcapital.com/index");
+
+	   driver.manage().window().maximize();
+
+	   }                            
+
+	   // EnterLoginCredentials                                                                                                                          
+
+	   @Test(priority =2)
+
+	   public void EnterLoginCredentials() {	
+
+	   WebElement businessCode= driver.findElement(By.cssSelector("#txtUserName"));
+
+	   businessCode.sendKeys("1");
+
+	   WebElement Password= driver.findElement(By.cssSelector("#txtPassword"));
+
+	   Password.sendKeys("4");
+
+	   WebElement login=driver.findElement(By.cssSelector("#btnLogin"));
+
+	   login.click();          
+
+	   }
+
+	   // ChooseMFPunchingInterface   
+
+	   @Test(priority =3)                  
+
+		public void ChooseMFPunchingInterface() throws InterruptedException  {
+
+		Actions actions = new Actions(driver);
+
+		WebElement mastersMenu = driver.findElement(By.xpath("//span[text()='Masters']"));
+
+		actions.moveToElement(mastersMenu).click().perform();
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+
+		WebElement miscellaneousMenu = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@aria-controls='blu_parrot_nav']")));
+
+		miscellaneousMenu.click();
+
+		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+		WebElement MF = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#BCK_57")));
+
+		MF.click();
+
+	   }
+
+	   // EnterDTNumber                                  
+
+	   @Test(priority =3)
+
+		public void EnterDTNumber() throws InterruptedException  {
+
+		Actions actions = new Actions(driver);
+
+		WebElement DTNumber = driver.findElement(By.cssSelector("#ContentPlaceHolder1_dtNumberA"));
+
+		actions.moveToElement(DTNumber).click().perform();
+
+		WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+		DTNumber.sendKeys("11538541");
+
+		WebElement ShowButton = driver.findElement(By.cssSelector("#ContentPlaceHolder1_btnShowDT"));
+
+		ShowButton.click();
+
+	   }
+
+	   // ClickShowButton       
+
+	   @Test(priority =4)
+
+		public void ClickShowButton() throws InterruptedException  {
+
+		Actions actions = new Actions(driver);
+
+		WebDriverWait wait3= new WebDriverWait(driver, Duration.ofSeconds(10));
+
+		WebElement ShowButton = driver.findElement(By.cssSelector("#ContentPlaceHolder1_btnShowDT"));
+
+		ShowButton.click();
+
+	   }                    
+
+	  // Closepopupwindow       
+
+		@Test(priority =5)                                   
+
+		public void Closepopupwindow() throws InterruptedException  {
+
+		Actions actions = new Actions(driver);
+
+		WebDriverWait wait4= new WebDriverWait(driver, Duration.ofSeconds(10));
+
+		WebElement Closepopupwindow = driver.findElement(By.xpath("(//button[@type='button'][normalize-space()='×'])[2]"));
+
+		Closepopupwindow.click(); 
+
+
+
+		//driver.switchTo().alert().accept();  
+
+		//driver.switchTo().alert().dismiss(); 
+
+		System.out.println("Confirmation Message: Updated Successfully");
+
+		System.out.println(driver.getCurrentUrl());
+
+		System.out.println(driver.getTitle());
+
+		System.out.println(driver.hashCode());
+
+		System.out.println(driver.manage().hashCode());
+
+//		System.out.println(driver.getPageSource());                           		                                                                                                                                                                                                                                                                                                              
+}
+
+}
+

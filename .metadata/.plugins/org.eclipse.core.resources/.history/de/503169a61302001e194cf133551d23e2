@@ -1,0 +1,19 @@
+
+public class CoreJavaBrushUp1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int myNub =5;
+		String website = "Experiom India";
+		char letter = 'r';
+		double dec = 0.45;
+		boolean myCard = false;
+		
+		System.out.println(myNub + "is store in the my Nub");
+		System.out.println(website + myNub + myCard + dec + myCard + letter);
+		System.out.println(myCard);
+		
+	}
+
+}

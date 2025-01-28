@@ -1,0 +1,22 @@
+
+public class BSE {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// System.setProperty("webdriver.chrome.driver", "D:\\\\chromedriver-116\\\\chromedriver-win32\\\\chromedriver.exe");
+		   WebDriver driver=new ChromeDriver();
+		   driver.get("https://www.bseindia.com/corporates/List_Scrips.html");
+		   driver.manage().window().maximize();
+		// driver.manage().timeouts().implicitlyWait(5000, Duration.seconds);
+		   driver.findElement(By.cssSelector("select#ddlsegment.form-control option[text=\"Equity\"]")).click();
+		   driver.findElement(By.cssSelector("select#ddlstatus.form-control option[text=\"Active\"]")).click();
+		   driver.findElement(By.cssSelector("#btnSubmit")).click();
+		   driver.findElement(By.cssSelector("#lnkDownload")).click();
+		   
+		   
+		   
+		   
+	}
+
+}
