@@ -11868,3 +11868,22 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.slf4j:slf
 2025-01-16 19:53:28,866 [Worker-22: Launching GoogleDropdown] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Eclipse IDE\Introduction\src\main\resources
 2025-01-16 19:53:28,869 [Worker-22: Launching GoogleDropdown] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-01-16 19:53:28,870 [Worker-22: Launching GoogleDropdown] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Eclipse IDE\Introduction\src\test\resources
+2025-01-29 12:49:58,986 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-29 12:50:50,133 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 12:50:50,135 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\main\resources
+2025-01-29 12:50:50,139 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 12:50:50,140 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\test\resources
+2025-01-29 12:51:24,088 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 12:51:24,089 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\main\resources
+2025-01-29 12:51:24,091 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 12:51:24,092 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\test\resources
+2025-01-29 12:51:30,464 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 12:51:30,465 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\main\resources
+2025-01-29 12:51:30,468 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 12:51:30,469 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\test\resources
+2025-01-29 16:55:09,897 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-29 16:58:33,377 [Worker-25: Auto share git projects] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2025-01-29 17:15:11,295 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 17:15:11,296 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\main\resources
+2025-01-29 17:15:11,300 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 17:15:11,301 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\test\resources
