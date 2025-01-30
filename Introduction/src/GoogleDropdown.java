@@ -31,7 +31,7 @@ public class GoogleDropdown {
 	            WebElement secondSuggestion = options.get(1); // Index 1 is the 2nd suggestion
 	            secondSuggestion.click();
 	        }
-	        System.out.println("Successfully Run Code!");
+	        System.out.println("Successfully Run Code!"); // Add Success message
 	}
 
 }
