@@ -11891,3 +11891,12 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.slf4j:slf
 2025-01-29 17:31:01,811 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\main\resources
 2025-01-29 17:31:01,813 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-01-29 17:31:01,814 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\test\resources
+2025-01-29 18:08:59,376 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-29 20:08:07,294 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 20:08:07,463 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\main\resources
+2025-01-29 20:08:07,466 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-29 20:08:07,466 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\test\resources
+2025-01-30 16:59:29,418 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-30 16:59:29,420 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\main\resources
+2025-01-30 16:59:29,422 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-30 16:59:29,423 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Automation-Repos\EclipseIDE\Introduction\src\test\resources

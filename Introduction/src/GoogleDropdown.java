@@ -32,7 +32,6 @@ public class GoogleDropdown {
 	            secondSuggestion.click();
 	        }
 	        System.out.println("Successfully Run Code!");
-	        System.out.println("Run Code!!");
 	}
 
 }
